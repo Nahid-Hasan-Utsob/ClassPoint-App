@@ -13,3 +13,9 @@
 .s-text-color{
       color: #FFFFFF;
 }
+.curve-bg {
+  height: 200px;
+  background-color:  #49BBBD;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+}

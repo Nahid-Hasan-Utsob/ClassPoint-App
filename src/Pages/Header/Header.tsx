@@ -4,7 +4,7 @@ import "../../Custom_Style.css";
 export default function Header() {
   const MenuLinks = (
     <>
-      <ul className="flex justify-evenly items-center h-full gap-10">
+      <ul className="flex justify-evenly items-center h-full gap-12">
         <Link to={"/"}>
           <li className="text-[22px] s-text-color">Home</li>
         </Link>
@@ -20,7 +20,7 @@ export default function Header() {
         <Link to={"/"}>
           <li className="text-[22px] s-text-color">About Us</li>
         </Link>
-        <div className="flex gap-8">
+        <div className="flex gap-5">
           <Link to={"/"}>
             <li className="text-[22px] main-text-color py-2 px-[50px] bg-white rounded-4xl">
               Login
