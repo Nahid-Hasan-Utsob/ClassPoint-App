@@ -7,7 +7,7 @@ export default function Header() {
   
   <ul className='flex items-center justify-evenly'>
    <Link to={'/'}>
-    <li className='text-[22px] text-white'>Home</li></Link>
+    <li className='text-[22px] s_text_color'>Home</li></Link>
   </ul>
   
   
@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <section>
-      <div className="bg-[#65DAFF] h-[100px] flex items-center justify-between">
+      <div className="main-bg-color h-[100px] flex items-center justify-between">
         <div>
           <img src={HeaderLogo} alt="" />
         </div>
